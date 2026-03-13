@@ -1,0 +1,26 @@
+.main {
+
+    width: 100%;
+    background-color: var(--green);
+    color: var(--black);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+    min-height: 70vh;
+    /* position: sticky;
+        top: 0%; */
+
+}
+
+
+.firstDiv {
+
+    flex-wrap: wrap;
+    font-size: calc(var(--navItemsXL));
+    padding: var(--padd1em);
+
+
+}

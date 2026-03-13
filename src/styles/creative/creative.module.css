@@ -1,0 +1,129 @@
+.main {
+
+
+    width: 100%;
+    min-height: 100vh;
+    background-color: var(--green);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+
+    /* z-index: -1; */
+    position: relative;
+    top: 0%;
+
+
+}
+
+
+
+.firstDiv {
+
+    margin-top: calc(var(--padd1em)*2);
+
+    width: 80rem;
+
+
+    display: flex;
+    align-items: first baseline;
+
+    justify-content: space-between;
+
+
+
+
+    padding: calc(var(--padd1em));
+    position: relative;
+
+}
+
+
+.headline {
+
+
+    transform: rotate(-90deg);
+
+    position: absolute;
+    top: calc(50% + 16rem);
+    left: -27%;
+    color: var(--white);
+
+    font-size: calc(var(--navItemsXL)* 2);
+ 
+
+
+}
+
+.hugeText{
+    width: 95%;
+
+    min-height:60rem;
+    
+      color: var(--black);
+        display: flex;
+    
+        align-items: center;
+        justify-content: center;
+        font-size: calc(var(--navItemsXL)* 10);
+
+        position: sticky;
+        top: 0%;
+
+
+}
+
+.slikeDiv{
+    min-height: 80rem;
+    width:100rem;
+    display: flex;
+    position: relative;
+    bottom:  0%;
+    display: flex;
+    flex-direction: column;
+}
+.slikeDiv img{
+    border-radius: var(--radius);
+    max-height: 49rem;
+    width: 49rem;
+    margin-bottom: calc( var(--padd1em)*6 );
+    z-index: 2;
+}
+
+.slikeDiv img:nth-child(2){
+   align-self: flex-end;
+}
+
+
+.prazan{
+    width: 50%;
+    height: 35rem;
+  
+}
+
+
+
+.nevidljiviDiv {
+    position: absolute;
+
+
+    width: 1.5rem;
+
+    height: 1.5rem;
+
+    background-color: var(--white);
+    border-radius: 50%;
+
+
+
+    z-index: 20;
+
+
+
+}
+
+
+
+

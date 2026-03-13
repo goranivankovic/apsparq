@@ -1,0 +1,159 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Petit+Formal+Script&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&family=VT323&display=swap');  
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+
+    font-family: "Quantico", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+
+
+
+
+ 
+
+
+
+
+}
+
+
+::-webkit-scrollbar {
+
+    display: none;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+
+}
+
+
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.cursor-crosshair {
+    cursor: crosshair;
+
+}
+
+
+
+.cursor-move {
+    cursor: move;
+
+}
+
+.cursor-grabbing {
+    cursor: context-menu;
+}
+
+.cursor-cell {
+    cursor:cell;
+}
+
+
+
+
+:root {
+
+    --black: #000000;
+    --white: #FFFFFF;
+    --green: #aaaa58;
+    --grey: #808080;
+    --blue: #4AD2FF;
+    --pink: #ff8fa1;
+
+    --radius: 2em;
+    --transition: 500ms;
+    --padd1em: 1em;
+
+
+    --navItems: 1.28rem;
+    --navItemsXL: 1.7rem;
+
+
+    --posao: 1rem;
+
+
+}
+
+/* .slike4 {
+    width: 100%;
+    max-height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+}
+
+.slike4 img {
+    width: 100%;
+    height: 100%;
+}
+
+ */
+
+
+@media(max-width:60rem) {
+
+
+    :root {
+
+
+        --navItems: 1.28rem;
+        --navItemsXL: 1.45rem;
+
+
+        --posao: 1rem;
+
+
+
+    }
+
+    .slike4 {
+
+        max-height: 30rem;
+    }
+
+    .slike4 img {
+        width: 100%;
+        height: 100%;
+    }
+
+
+
+
+}
+
+
+@media(max-width:40rem) {
+
+    :root {
+
+
+        --navItems: 1.28rem;
+        --navItemsXL: 1.7rem;
+
+
+        --posao: .95rem;
+
+        --padd1em: .6em;
+
+    }
+
+    .slike4 {
+
+        max-height: 26rem;
+    }
+
+
+
+
+}

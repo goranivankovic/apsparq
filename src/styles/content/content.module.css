@@ -1,0 +1,166 @@
+.main {
+
+
+    width: 100%;
+    min-height:40rem;
+    background-color: var(--green);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+
+    /* z-index: -1; */
+    position: relative;
+    top: 0%;
+
+    padding-bottom: 5rem;
+
+
+}
+
+
+.headline {
+
+
+    transform: rotate(-90deg);
+
+    position: absolute;
+    top: calc(50% - 10rem);
+    right: -27%;
+    color: var(--white);
+
+    font-size: calc(var(--navItemsXL)* 2);
+
+
+
+}
+
+
+.firstDiv {
+
+    margin-top: calc(var(--padd1em)*2);
+
+    width: 80rem;
+
+
+    display: flex;
+
+
+
+
+    justify-content: space-between;
+
+
+
+
+    padding: calc(var(--padd1em));
+    position: relative;
+
+
+
+
+
+
+}
+
+
+
+
+.firstDiv img{
+ 
+max-height: 38rem;
+ 
+}
+
+.firstDivText{
+    max-width: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+
+
+
+}
+
+
+
+
+.firstDivText div{
+   font-size: calc(var(--posao)*1.15);
+    padding:calc( var(--padd1em)*0.2 );
+
+
+
+     
+
+   
+}
+
+
+
+
+
+.firstDivTextItme1 div:nth-child(1){
+    font-size: calc(var(--navItemsXL)* 1.65);
+
+    color: var(--white);
+    margin-top: -3rem;
+   
+ 
+}
+
+.firstDivTextItme2{
+    margin-top: 26rem;
+}
+
+
+
+.firstDivTextItme2 div:nth-child(1) {
+    font-size: calc(var(--navItemsXL)* 1.65);
+
+    color: var(--white);
+
+
+
+}
+
+
+.secondDiv{
+
+
+
+max-width: 30rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+   
+}
+
+
+.secondDivTextItme1{
+    font-size: calc(var(--posao)* 1.15);
+  
+        color: var(--black);
+
+padding: calc(var(--padd1em)*0.2);
+
+margin-bottom:3rem;
+
+      
+}
+
+.secondDivTextItme1 div:nth-child(1) {
+    font-size: calc(var(--navItemsXL)* 1.65);
+ 
+    color: var(--white);
+
+}
+
+
+
+
