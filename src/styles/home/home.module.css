@@ -382,6 +382,7 @@ margin-top: calc(var(--padd1em)*5);
     .firstDiv {
         width:95%;
         margin-bottom: var(--padd1em);
+        margin-top: calc(var(--padd1em)*2);
 
     }
 
@@ -500,7 +501,7 @@ margin-top: calc(var(--padd1em)*5);
     .firstDiv {
         width: 98%;
         margin-bottom: var(--padd1em);
-        margin-top:calc( var(--padd1em)*3 );
+        margin-top:calc( var(--padd1em)*5 );
 
     }
 
