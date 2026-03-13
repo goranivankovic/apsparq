@@ -52,11 +52,13 @@ margin-top: calc(var(--padd1em)*5);
   
   
 }
+
 .video{
     width:100rem;
 
    max-height: 60rem;
    border-radius: var(--radius);
+    aspect-ratio: 16 / 9;
   
 }
 
@@ -396,6 +398,24 @@ margin-top: calc(var(--padd1em)*5);
 
 
 
+ .video {
+     width: 95%;
+     max-height: 25rem;
+     border-radius: var(--radius);
+  aspect-ratio: 1/1;;
+
+
+ }
+
+
+ video {
+     object-fit: cover;
+     width: 100%;
+     max-height: auto;
+
+ }
+
+
 
     .secondDiv {
         width: 95%;
@@ -487,7 +507,7 @@ margin-top: calc(var(--padd1em)*5);
     .firstDiv div {
 
 
-        font-size: calc(var(--navItemsXL) * 2);
+        font-size: calc(var(--navItemsXL) * 1.5);
 
         line-height: 1.1;
 
@@ -495,6 +515,24 @@ margin-top: calc(var(--padd1em)*5);
 
     }
 
+
+.video {
+    width: 98%;
+    max-height: 20rem;
+    border-radius: var(--radius);
+    aspect-ratio: 1/1;
+    
+
+
+}
+
+
+video {
+    object-fit: cover;
+    width: 100%;
+max-height: 20rem;;
+
+}
 
 
 
