@@ -134,7 +134,8 @@ function App() {
  
          <Nav />         
          <Home />
-         {/* <Marketing   boolLaz1 ={true}  boolLaz2 ={true} />  
+         {/* 
+         <Marketing   boolLaz1 ={true}  boolLaz2 ={true} />  
          <Creative />
          <Content /> 
          <HugeText />
