@@ -203,6 +203,8 @@
         margin-top: calc(var(--padd1em)*10);
         position: relative;
 
+   
+
 
 
 
@@ -242,16 +244,7 @@
 
     .secondDiv::after {
         display: none;
-        content: ' ';
-        height: 15rem;
-        width: 15rem;
-        border: .3em solid var(--green);
-        position: absolute;
-        top: -25%;
-        right: -5%;
-        border-radius: var(--radius);
-        animation: vrti 5s linear infinite;
-        background-color: var(--white);
+
 
 
     }
@@ -259,16 +252,6 @@
 
     .secondDiv::before {
         display: none;
-        content: "";
-        background-image: url('../../assets/phone.jpg');
-        background-size: cover;
-
-        position: absolute;
-        bottom: -25%;
-        left: -5%;
-        border-radius: var(--radius);
-        width: 15rem;
-        height: 15rem;
 
 
     }

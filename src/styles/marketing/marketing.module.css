@@ -325,7 +325,6 @@ width: 80rem;
 
 
 
-
     }
 
 
@@ -509,7 +508,7 @@ margin-top: calc(var(--padd1em)*1);
         color: var(--green);
 
         font-size: calc(var(--navItemsXL)* 1.5);
-        /* background-color: var(--white); */
+        background-color: var(--white);
 
 
     }
@@ -583,13 +582,15 @@ margin-top: calc(var(--padd1em)*1);
     }
 
     .fourDiv {
-        width: 95%;
+        width: 90%;
         padding: var(--padd1em);
 
         color: var(--grey);
         display: flex;
         align-items: center;
         justify-content: space-between;
+
+     
 
     }
 
