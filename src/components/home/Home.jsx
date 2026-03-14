@@ -34,8 +34,8 @@ const [bg, setbg] = useState('#FFFFFF')
   });
 
 
-  const width = useTransform(scrollYProgress, [0, 1], ["90%", "15%"]);
-  const height = useTransform(scrollYProgress, [0, 1], ["55rem", "15rem"]);
+  const width = useTransform(scrollYProgress, [0, 1], ["85%", "15%"]);
+  const height = useTransform(scrollYProgress, [0, 1], ["50rem", "15rem"]);
 
   const showSmallVideo = scrollYProgress.get() > 0.9; // kad si blizu kraja
 
@@ -177,18 +177,18 @@ const [bg, setbg] = useState('#FFFFFF')
             
        initial={{ background:"#808080",borderRadius:".4em"}}
         whileInView={{ background:"#FFFFFF"}}
-        transition={{ duration: 1.2,delay:1 }}
+        transition={{ duration: 1.2,delay:.9 }}
              >We develop <span style={{color:"#aaaa58"}}> smart</span>
            </motion.div>
             <motion.div
                initial={{ background:"#808080",borderRadius:".4em"}}
         whileInView={{ background:"#FFFFFF"}}
-        transition={{ duration: 1.2,delay:1.3 }}
+        transition={{ duration: 1.2,delay:1.2 }}
             >solutions for people, brands,</motion.div>
             <motion.div
                initial={{ background:"#808080",borderRadius:".4em"}}
         whileInView={{ background:"#FFFFFF"}}
-        transition={{ duration: 1.2,delay: 1.6 }}
+        transition={{ duration: 1.2,delay: 1.5 }}
              >and <span style={{color:"#aaaa58"}}>digital</span> platforms.</motion.div> 
 
 
