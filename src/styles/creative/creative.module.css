@@ -361,6 +361,7 @@
 
     .prazan {
         width: 50%;
+
         height: 29rem;
 
 
@@ -453,7 +454,7 @@
 
     .slikeDiv img {
         border-radius: var(--radius);
-        height: 23rem;
+        height: 22rem;
         width: 100%;
         margin-bottom: calc(var(--padd1em)*8);
         z-index: 2;
@@ -466,7 +467,7 @@
 
     .prazan {
         width: 90%;
-        height: 23rem;
+        height: 30rem;
 
     }
 
