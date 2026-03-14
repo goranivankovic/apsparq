@@ -799,6 +799,16 @@ width: 80rem;
 
 @media(max-width:40rem) {
 
+.main {
+
+
+
+        background-image: none;
+
+
+    }
+
+
 .nevidljiviDiv {
         display: none;
 
@@ -817,7 +827,7 @@ width: 80rem;
 
 
 
-    
+
 
 }
 
