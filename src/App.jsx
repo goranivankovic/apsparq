@@ -233,8 +233,9 @@ function App() {
 
         <div>
  
-         <Nav  style={{marginTop:"5rem"}} />    
-                <span style={{marginBottom:"5rem"}}></span>
+         <Nav  />  
+       <div style={{ marginTop:"4rem" }} ></div>   
+               
        
          <Creative />
           <Content /> 
