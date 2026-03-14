@@ -33,30 +33,30 @@ function App() {
   useEffect(() => {
 
 
-    // const interval = setInterval(() => {
-    //   setCount(prev => {
-    //        if (prev === 98) {
-    //         setLaz(false)
-    //        } else if (prev === 100) {
-    //       clearInterval(interval); 
+    const interval = setInterval(() => {
+      setCount(prev => {
+           if (prev === 98) {
+            setLaz(false)
+           } else if (prev === 100) {
+          clearInterval(interval); 
 
-    //       setIsAnimating(false)
+          setIsAnimating(false)
          
 
 
-    //       setTimeout(() => {
-    //         setLaz2(false)
+          setTimeout(() => {
+            setLaz2(false)
             
-    //       }, 800);
+          }, 800);
 
-    //       return prev;
-    //     }
-    //     return prev + 1;
-    //   });
-    // }, 30); 
+          return prev;
+        }
+        return prev + 1;
+      });
+    }, 30); 
 
 
-    // return () => clearInterval(interval);
+    return () => clearInterval(interval);
 
 
 
@@ -72,58 +72,58 @@ function App() {
 
 
        
+            laz2 ?
 
 
-
-          //  <motion.div className={styles.main}
-          //      initial={{  opacity:1}}
-          //      animate={{  opacity:1 } }
-          //      transition={{ duration:1.2, ease: "easeOut" ,delay:3}}
-          //     >
+           <motion.div className={styles.main}
+               initial={{  opacity:1}}
+               animate={{  opacity:1 } }
+               transition={{ duration:1.2, ease: "easeOut" ,delay:3}}
+              >
           
-          //     <div>
+              <div>
                   
                   
-          //          <motion.div 
-          //          initial={{ x: 200, opacity: 0 }}
-          //         animate={isAnimating ? { x: 0, opacity: 1 } : { x: 0, opacity: 1 }}
-          //         transition={{ duration:3, ease: "easeOut" }}>
+                   <motion.div 
+                   initial={{ x: 200, opacity: 0 }}
+                  animate={isAnimating ? { x: 0, opacity: 1 } : { x: 0, opacity: 1 }}
+                  transition={{ duration:3, ease: "easeOut" }}>
                       
-          //            A
+                     A
                   
-          //         </motion.div>  
+                  </motion.div>  
           
-          //          <motion.div 
-          //          initial={{ opacity: 0 ,rotate:-90}}
-          //         animate={isAnimating ? { opacity: 1 ,rotate:0} : { opacity: 1,rotate:0 }}
-          //         transition={{ duration: 3, ease: "easeOut" }}>
+                   <motion.div 
+                   initial={{ opacity: 0 ,rotate:-90}}
+                  animate={isAnimating ? { opacity: 1 ,rotate:0} : { opacity: 1,rotate:0 }}
+                  transition={{ duration: 3, ease: "easeOut" }}>
                       
-          //           P
+                    P
                   
-          //         </motion.div> 
+                  </motion.div> 
           
              
                    
-          //   </div>
+            </div>
           
           
-          //         <div>
+                  <div>
               
                   
           
-          //     {laz ? <span>0</span> :'' }
-          //      <span>{count}</span>
-          //       {'%'}
+              {laz ? <span>0</span> :'' }
+               <span>{count}</span>
+                {'%'}
           
-          //     </div> 
+              </div> 
           
-          //     </motion.div>
+              </motion.div>
 
 
 
 
           
-
+         :
 
       
 
