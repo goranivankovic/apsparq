@@ -608,12 +608,25 @@ width: 80rem;
 
     }
 
+
+.firstDivBigBOX div:hover {
+    transform: scale(1)translateX(0rem);
+    transition: .6s;
+    background: var(--grey);
+    color: var(--white);
+    border-radius:0em;
+
+}
+
+
     .firstDivSmallBox {
 
 
         padding: calc(var(--padd1em));
         color: var(--grey);
         background-color: var(--white);
+
+     width: 100%;
 
         font-size: calc(var(--posao));
 
@@ -631,7 +644,7 @@ width: 80rem;
     }
 
     .firstDivBigBOX div {
-        padding: .25em;
+        padding: .5em;
         margin-bottom: var(--padd1em);
     }
 
@@ -642,7 +655,7 @@ width: 80rem;
     .thrredDiv {
         margin-top: calc(var(--padd1em)*1);
         max-width: 98%;
-        padding: .5em;
+        padding: .35em;
         font-size: calc(var(--navItemsXL)* 1);
 
         color: var(--grey);
@@ -673,7 +686,7 @@ width: 80rem;
 
     .fourDiv div {
         width: 22rem;
-        height: 20rem;
+        height: 18rem;
         padding: .5em;
         font-size: calc(var(--posao));
         background-color: var(--green);
@@ -686,10 +699,17 @@ width: 80rem;
     }
 
 
+        .fourDiv div:hover {
+            transition: .7s;
+            transform: scale(1);
+            border-radius: 0%;
+            background-color: var(--white);
+    
+        }
 
 
     .fiveDiv {
-        width: 60rem;
+        width: 98%;
 
 
         display: flex;
@@ -702,6 +722,9 @@ width: 80rem;
 
         padding: calc(var(--padd1em));
         position: relative;
+
+
+       
 
     }
 

@@ -175,7 +175,7 @@ boolLaz1 ? <>
         </div>
 
 
-             {/* <Slika /> */}
+             <Slika /> 
    
 
         

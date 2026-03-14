@@ -1,3 +1,5 @@
+
+
 .secondDiv {
 
     margin-top: calc(var(--padd1em)*5);
@@ -107,4 +109,327 @@
                     border-radius: 1em;
                 }
     
+}
+
+
+@media(max-width:80rem) {
+.secondDiv {
+
+        margin-top: calc(var(--padd1em)*17);
+        position: relative;
+
+
+
+
+
+        width: 55rem;
+        max-height: 30rem;
+
+
+        color: var(--grey);
+
+
+        display: flex;
+        align-items: center;
+
+        align-items: center;
+        justify-content: center;
+
+
+
+        padding: var(--padd1em);
+
+
+  
+
+
+    }
+
+
+    .secondDiv img {
+        max-height: 33rem;
+        width: 100%;
+
+        border-radius: var(--radius);
+
+    }
+
+
+    .secondDiv::after {
+        display: inline-block;
+        content: ' ';
+        height: 15rem;
+        width: 15rem;
+        border: .3em solid var(--green);
+        position: absolute;
+        top: -25%;
+        right: -5%;
+        border-radius: var(--radius);
+        animation: vrti 5s linear infinite;
+        background-color: var(--white);
+
+
+    }
+
+
+    .secondDiv::before {
+        content: "";
+        background-image: url('../../assets/phone.jpg');
+        background-size: cover;
+
+        position: absolute;
+        bottom: -25%;
+        left: -5%;
+        border-radius: var(--radius);
+        width: 15rem;
+        height: 15rem;
+
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+@media(max-width:60rem) {
+    .secondDiv {
+
+        margin-top: calc(var(--padd1em)*10);
+        position: relative;
+
+
+
+
+
+        width: 95%;
+        max-height: 30rem;
+
+
+        color: var(--grey);
+
+
+        display: flex;
+        align-items: center;
+
+        align-items: center;
+        justify-content: center;
+
+
+
+        padding: var(--padd1em);
+
+
+ 
+
+
+    }
+
+
+    .secondDiv img {
+        max-height: 33rem;
+        width: 100%;
+
+        border-radius: var(--radius);
+
+    }
+
+
+    .secondDiv::after {
+        display: none;
+        content: ' ';
+        height: 15rem;
+        width: 15rem;
+        border: .3em solid var(--green);
+        position: absolute;
+        top: -25%;
+        right: -5%;
+        border-radius: var(--radius);
+        animation: vrti 5s linear infinite;
+        background-color: var(--white);
+
+
+    }
+
+
+    .secondDiv::before {
+        display: none;
+        content: "";
+        background-image: url('../../assets/phone.jpg');
+        background-size: cover;
+
+        position: absolute;
+        bottom: -25%;
+        left: -5%;
+        border-radius: var(--radius);
+        width: 15rem;
+        height: 15rem;
+
+
+    }
+}
+
+
+
+
+
+
+@media(max-width:60rem) {
+    .secondDiv {
+
+        margin-top: calc(var(--padd1em)*8);
+        position: relative;
+
+
+
+
+
+        width: 95%;
+        max-height: 28rem;
+
+
+        color: var(--grey);
+
+
+        display: flex;
+        align-items: center;
+
+        align-items: center;
+        justify-content: center;
+
+
+
+        padding: var(--padd1em);
+
+
+      
+
+
+    }
+
+
+    .secondDiv img {
+        max-height: 30rem;
+        width: 100%;
+
+        border-radius: var(--radius);
+
+    }
+
+
+    .secondDiv::after {
+        display: none;
+        content: ' ';
+        height: 15rem;
+        width: 15rem;
+        border: .3em solid var(--green);
+        position: absolute;
+        top: -25%;
+        right: -5%;
+        border-radius: var(--radius);
+        animation: vrti 5s linear infinite;
+        background-color: var(--white);
+
+
+    }
+
+
+    .secondDiv::before {
+        display: none;
+        content: "";
+        background-image: url('../../assets/phone.jpg');
+        background-size: cover;
+
+        position: absolute;
+        bottom: -25%;
+        left: -5%;
+        border-radius: var(--radius);
+        width: 15rem;
+        height: 15rem;
+
+
+    }
+}
+
+
+@media(max-width:48rem) {
+    .secondDiv {
+
+        margin-top: calc(var(--padd1em)*1);
+        position: relative;
+
+
+
+
+
+        width: 95%;
+        max-height: 30rem;
+
+
+        color: var(--grey);
+
+
+        display: flex;
+        align-items: center;
+
+        align-items: center;
+        justify-content: center;
+
+
+
+        padding: var(--padd1em);
+
+
+
+
+
+    }
+
+
+    .secondDiv img {
+        max-height: 30rem;
+        width: 100%;
+
+        border-radius: var(--radius);
+
+    }
+
+
+    .secondDiv::after {
+        display: none;
+        content: ' ';
+        height: 15rem;
+        width: 15rem;
+        border: .3em solid var(--green);
+        position: absolute;
+        top: -25%;
+        right: -5%;
+        border-radius: var(--radius);
+        animation: vrti 5s linear infinite;
+        background-color: var(--white);
+
+
+    }
+
+
+    .secondDiv::before {
+        display: none;
+        content: "";
+        background-image: url('../../assets/phone.jpg');
+        background-size: cover;
+
+        position: absolute;
+        bottom: -25%;
+        left: -5%;
+        border-radius: var(--radius);
+        width: 15rem;
+        height: 15rem;
+
+
+    }
 }
