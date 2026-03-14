@@ -191,7 +191,8 @@ function App() {
 
         <div>
  
-         <Nav />         
+         <Nav />        
+          <div style={{ marginTop:"4rem" }} ></div>   
          <Marketing   boolLaz1 ={true}  boolLaz2 ={false} />  
    
          <HugeText />
@@ -211,7 +212,9 @@ function App() {
 
         <div>
  
-         <Nav />         
+         <Nav  />      
+        <div style={{ marginTop:"4rem" }} ></div>   
+ 
          <Marketing   boolLaz1 ={false}  boolLaz2 ={true} />  
    
          <HugeText />
@@ -230,7 +233,8 @@ function App() {
 
         <div>
  
-         <Nav />         
+         <Nav  style={{marginTop:"5rem"}} />    
+                <span style={{marginBottom:"5rem"}}></span>
        
          <Creative />
           <Content /> 

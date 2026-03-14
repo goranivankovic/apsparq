@@ -14,10 +14,23 @@ import boja from '../../assets/boja.jpg'
 import pc from '../../assets/pc.jpg'
 import trikruga from '../../assets/trikruga.png'
 
-import { useRef,useState } from "react";
+import { useEffect,useState } from "react";
 
 function Creative() {
 
+useEffect(() => {
+
+  window.scrollTo({
+  top: 0,
+  behavior: 'smooth'
+});
+
+
+
+  return () => {
+    
+  }
+}, [])
 
 
 
@@ -49,6 +62,9 @@ function Creative() {
 
   
   return (
+
+
+
     <div className={styles.main}
       onMouseMove={handleMouseMove}
     onMouseLeave={handleMouseLeave}
@@ -105,22 +121,12 @@ function Creative() {
 
 
 
-
- 
-
-
-
-
-        
-
-
-       
-                       
-
-
-
-
     </div>
+
+
+
+
+
   )
 }
 

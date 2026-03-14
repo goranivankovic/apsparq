@@ -3,9 +3,27 @@
 import styles from '../../styles/content/content.module.css';
 
 import trikruga from '../../assets/trikruga.png'
+import { useEffect } from 'react';
 
 
 function Content() {
+
+useEffect(() => {
+
+  window.scrollTo({
+  top: 0,
+  behavior: 'smooth'
+});
+
+
+
+  return () => {
+    
+  }
+}, [])
+
+
+
   return (
     <div className={styles.main}>
 

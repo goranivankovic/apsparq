@@ -1,6 +1,6 @@
 import styles from '../../styles/marketing/marketing.module.css';
 
-import { useRef,useState } from "react";
+import { useEffect, useRef,useState } from "react";
 
 import Box from '../box/Box';
 
@@ -13,6 +13,20 @@ import Slika from '../slika/Slika';
 
 
 function Marketing({boolLaz1, boolLaz2}) {
+
+useEffect(() => {
+
+  window.scrollTo({
+  top: 0,
+  behavior: 'smooth'
+});
+
+
+
+  return () => {
+    
+  }
+}, [])
 
 
 

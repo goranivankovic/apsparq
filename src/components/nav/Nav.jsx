@@ -127,7 +127,7 @@ setlaz(!laz)
 
         <div className={styles.main}>
 
-            <Link className={styles.jc} to='/'>
+            <Link className={styles.jc} to='/home'>
 
 
 <svg width="62" height="37" viewBox="0 0 62 37" fill="none" xmlns="http://www.w3.org/2000/svg">

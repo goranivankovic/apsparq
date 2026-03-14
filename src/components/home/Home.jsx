@@ -11,6 +11,7 @@ import kamera from '../../assets/tastatura.jpg'
 
 
 import HoverText from '../hoverText/HoverText'
+import { useEffect } from 'react';
 
 
 
@@ -23,6 +24,19 @@ function Home() {
 const [bg, setbg] = useState('#FFFFFF')
 
 
+useEffect(() => {
+
+  window.scrollTo({
+  top: 0,
+  behavior: 'smooth'
+});
+
+
+
+  return () => {
+    
+  }
+}, [])
 
 
 
