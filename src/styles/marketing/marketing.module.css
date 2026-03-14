@@ -817,6 +817,38 @@ width: 80rem;
 
 
 
+        .firstDivSmallBox {
+    
+    
+            padding: .35em;
+            color: var(--grey);
+            background-color: var(--white);
+    
+            width: 100%;
+    
+            font-size: calc(var(--posao));
+    
+        }
+    
+    
+        .firstDivBigBOX {
+            background-color: var(--white);
+            width: 100%;
+            padding: .35em;
+    
+
+    
+            font-size: calc(var(--posao));
+        }
+    
+        .firstDivBigBOX div {
+            width: 100%;
+          
+            padding: .35em;
+            margin-bottom: var(--padd1em);
+        }
+
+
 
     .nevidljiviDiv2 {
         display: none;
