@@ -686,7 +686,7 @@ width: 80rem;
 
     .fourDiv div {
         width: 22rem;
-        height: 18rem;
+        height: 17rem;
         padding: .5em;
         font-size: calc(var(--posao));
         background-color: var(--green);
