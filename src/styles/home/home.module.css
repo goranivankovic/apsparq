@@ -415,7 +415,7 @@ aspect-ratio: 16/9;
 
         line-height: 1.1;
 
-
+  padding-left: .5em;
 
     }
 
@@ -449,6 +449,7 @@ aspect-ratio: 1/1;
 
         font-size: calc(var(--navItemsXL)* 2);
         margin-bottom: .1em;
+        padding-left: .5em;
 
 
     }
@@ -591,7 +592,7 @@ max-height: 20rem;;
     .imageDiv img {
 
         max-height: 25rem;
-        width: 85%;
+        width:90%;
         margin-bottom: var(--padd1em);
 
         border-radius: var(--radius);
