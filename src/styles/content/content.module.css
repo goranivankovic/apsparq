@@ -18,6 +18,8 @@
     padding-bottom: 5rem;
 
 
+
+
 }
 
 
@@ -137,6 +139,9 @@ max-width: 30rem;
     display: flex;
     align-items: center;
     justify-content: center;
+
+
+ 
     
    
 }
@@ -162,5 +167,529 @@ margin-bottom:3rem;
 }
 
 
+@media(max-width:90rem) {
+.headline {
+
+
+        transform: rotate(0deg);
+
+        position: absolute;
+        top: -10rem;
+        left: 0%;
+        width: 80%;
+
+
+        font-size: calc(var(--navItemsXL)* 2);
+  
+
+
+    }
+}
+
+
+
+@media (max-width:80rem) {
+
+
+
+.firstDiv {
+
+        margin-top: calc(var(--padd1em)*2);
+
+        width: 60rem;
+
+
+        display: flex;
+
+
+
+
+        justify-content: space-between;
+
+
+
+
+        padding: calc(var(--padd1em));
+        position: relative;
+
+
+
+
+
+
+    }
+
+
+
+
+    .firstDiv img {
+
+        max-height: 38rem;
+
+    }
+
+    .firstDivText {
+        max-width: 30rem;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+
+
+
+    }
+
+
+
+
+    .firstDivText div {
+        font-size: calc(var(--posao)*1.15);
+        padding: calc(var(--padd1em)*0.2);
+
+
+
+
+
+
+    }
+
+
+
+
+
+    .firstDivTextItme1 div:nth-child(1) {
+        font-size: calc(var(--navItemsXL)* 1.65);
+
+        color: var(--white);
+        margin-top: -3rem;
+
+
+    }
+
+    .firstDivTextItme2 {
+        margin-top: 26rem;
+    }
+
+
+
+    .firstDivTextItme2 div:nth-child(1) {
+        font-size: calc(var(--navItemsXL)* 1.65);
+
+        color: var(--white);
+
+
+
+    }
+
+
+    .secondDiv {
+
+
+
+        max-width: 30rem;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
+    }
+
+
+    .secondDivTextItme1 {
+        font-size: calc(var(--posao)* 1.15);
+
+        color: var(--black);
+
+        padding: calc(var(--padd1em)*0.2);
+
+        margin-bottom: 3rem;
+
+
+    }
+
+    .secondDivTextItme1 div:nth-child(1) {
+        font-size: calc(var(--navItemsXL)* 1.65);
+
+        color: var(--white);
+
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:60rem) {
+
+.main {
+
+
+        width: 100%;
+        min-height: 40rem;
+        background-color: var(--green);
+
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+
+
+
+        /* z-index: -1; */
+        position: relative;
+        top: 0%;
+
+        padding-bottom: 3rem;
+
+
+
+
+    }
+
+        .headline {
+    
+    
+            transform: rotate(0deg);
+    
+            position: absolute;
+            top: -6rem;
+            left: 0%;
+            width: 80%;
+    
+    
+            font-size: calc(var(--navItemsXL)* 1.5);
+    
+    
+    
+        }
+
+ 
+
+    .firstDiv {
+
+        margin-top: calc(var(--padd1em));
+
+        width:95%;
+
+
+        display: flex;
+        flex-direction: column;
+      
+
+
+
+
+        justify-content: space-between;
+
+
+
+
+        padding: calc(var(--padd1em));
+        position: relative;
+
+
+
+
+
+
+    }
+
+
+
+
+    .firstDiv img {
+        order: 3;
+
+        max-height: 38rem;
+        display: none;
+
+    }
+
+    .firstDivText {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+
+
+
+    }
+
+
+
+
+    .firstDivText div {
+        font-size: calc(var(--posao)*1);
+        padding: calc(var(--padd1em)*0.2);
+
+
+
+
+
+
+    }
+
+
+
+
+
+    .firstDivTextItme1 div:nth-child(1) {
+        font-size: calc(var(--navItemsXL)* 1.1);
+
+        color: var(--white);
+        margin-top: -1rem;
+
+
+    }
+
+    .firstDivTextItme2 {
+        margin-top:2rem;
+    }
+
+
+
+    .firstDivTextItme2 div:nth-child(1) {
+        font-size: calc(var(--navItemsXL)* 1.1);
+
+        color: var(--white);
+
+
+
+    }
+
+
+
+    .secondDiv {
+margin-top: 2rem;
+        width: 100%;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+     
+   
+
+
+    }
+
+
+    .secondDivTextItme1 {
+        font-size: calc(var(--posao)* 1.1);
+
+        color: var(--black);
+
+        padding: calc(var(--padd1em)*0.2);
+
+        margin-bottom: 3rem;
+
+
+    }
+
+    .secondDivTextItme1 div:nth-child(1) {
+        font-size: calc(var(--navItemsXL)* 1.1);
+
+        color: var(--white);
+
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:40rem) {
+
+    .main {
+
+
+        width: 100%;
+        min-height: 40rem;
+        background-color: var(--green);
+
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+
+
+
+        /* z-index: -1; */
+        position: relative;
+        top: 0%;
+
+        padding-bottom: 3rem;
+
+
+
+
+    }
+
+
+ .headline {
+
+
+     transform: rotate(0deg);
+
+     position: absolute;
+     top: -8rem;
+     left: 0%;
+     width: 80%;
+
+
+     font-size: calc(var(--navItemsXL)* 1.25);
+
+
+
+ }
+
+
+
+    .firstDiv {
+
+        margin-top: calc(var(--padd1em)*2);
+
+        width: 95%;
+
+
+        display: flex;
+        flex-direction: column;
+
+
+
+
+
+        justify-content: space-between;
+
+
+
+
+        padding: calc(var(--padd1em));
+        position: relative;
+
+
+
+
+
+
+    }
+
+
+
+
+
+    .firstDivText {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+
+
+
+    }
+
+
+
+
+    .firstDivText div {
+        font-size: calc(var(--posao)*1);
+        padding: calc(var(--padd1em)*0.2);
+
+
+
+
+
+
+    }
+
+
+
+
+
+    .firstDivTextItme1 div:nth-child(1) {
+        font-size: calc(var(--navItemsXL)* 1);
+
+        color: var(--white);
+        margin-top: -1rem;
+
+
+    }
+
+    .firstDivTextItme2 {
+        margin-top: 2rem;
+    }
+
+
+
+    .firstDivTextItme2 div:nth-child(1) {
+        font-size: calc(var(--navItemsXL)* 1);
+
+        color: var(--white);
+
+
+
+    }
+
+
+
+    .secondDiv {
+        margin-top: 2rem;
+        width: 100%;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
+
+
+
+    }
+
+
+    .secondDivTextItme1 {
+        font-size: calc(var(--posao)* 1);
+
+        color: var(--black);
+
+        padding: calc(var(--padd1em)*0.2);
+
+        margin-bottom: 1rem;
+
+
+    }
+
+    .secondDivTextItme1 div:nth-child(1) {
+        font-size: calc(var(--navItemsXL)* 1);
+
+        color: var(--white);
+
+    }
+
+}
 
 
