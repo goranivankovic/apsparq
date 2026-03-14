@@ -730,4 +730,32 @@ width: 80rem;
 
 
 
+
+
+
+
 }
+
+
+
+
+@media(max-width:40rem) {
+    
+.nevidljiviDiv {
+        display: none;
+
+
+    }
+
+
+
+
+    .nevidljiviDiv2 {
+        display: none;
+
+
+
+    }
+
+}
+

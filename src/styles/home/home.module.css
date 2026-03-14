@@ -591,7 +591,7 @@ max-height: 20rem;;
 
     .imageDiv img {
 
-        max-height: 25rem;
+        height: 17rem;
         width:90%;
         margin-bottom: var(--padd1em);
 
@@ -602,32 +602,23 @@ max-height: 20rem;;
     }
 
 
+.nevidljiviDiv {
+
+    display: none;
 
 
 
-
-    .nevidljiviDiv2 {
-
-        padding: var(--padd1em);
-        position: absolute;
-        width: 10rem;
-
-
-        z-index: 20;
+}
 
 
 
-        overflow: hidden;
-        background-color: var(--green);
-        color: var(--black);
-        border-radius: var(--radius);
-        display: flex;
-        align-items: center;
-        justify-content: center;
+.nevidljiviDiv2 {
 
-        font-size: var(--posao);
 
-    }
+display: none;
+}
+
+
 
 }
 

@@ -34,8 +34,8 @@ const [bg, setbg] = useState('#FFFFFF')
   });
 
 
-  const width = useTransform(scrollYProgress, [0, 1], ["85%", "15%"]);
-  const height = useTransform(scrollYProgress, [0, 1], ["50rem", "15rem"]);
+  const width = useTransform(scrollYProgress, [0, 1], ["92%", "15%"]);
+  const height = useTransform(scrollYProgress, [0, 1], ["54rem", "15rem"]);
 
   const showSmallVideo = scrollYProgress.get() > 0.9; // kad si blizu kraja
 
