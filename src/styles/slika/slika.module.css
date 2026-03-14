@@ -115,7 +115,7 @@
 @media(max-width:80rem) {
 .secondDiv {
 
-        margin-top: calc(var(--padd1em)*17);
+        margin-top: calc(var(--padd1em)*13);
         position: relative;
 
 
