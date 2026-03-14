@@ -12,28 +12,7 @@ import olovka2 from '../../assets/olovka2.jpg'
 import Slika from '../slika/Slika';
 
 
-function Marketing({boolLaz2}) {
-
-  const [bg, setbg] = useState('transparent')
-
-
-  function changeBg(a) {
-
-   
-
-      setbg(a)
-
-  }
-
-
-    function bgDefault(a) {
-   
-  
-      setbg('transparent')
-
-    
-  }
-
+function Marketing({boolLaz1, boolLaz2}) {
 
 
 
@@ -99,7 +78,7 @@ function Marketing({boolLaz2}) {
 
 
   return (
-    <div className={styles.main} style={{background:bg}}
+    <div className={styles.main}
 
     onMouseMove={handleMouseMove}
     onMouseLeave={handleMouseLeave}
@@ -131,6 +110,12 @@ function Marketing({boolLaz2}) {
 
 
 
+{
+
+boolLaz1 ? <>
+
+   
+
 
 
 
@@ -141,10 +126,6 @@ function Marketing({boolLaz2}) {
 
 
       
-
-
-
-
         <div className={styles.firstDivSmallBox}
                     onMouseMove={handleMouseMove2}
     onMouseLeave={handleMouseLeave2} 
@@ -194,7 +175,7 @@ function Marketing({boolLaz2}) {
         </div>
 
 
-             <Slika />
+             {/* <Slika /> */}
    
 
         
@@ -213,20 +194,24 @@ function Marketing({boolLaz2}) {
 
       <div className={` ${styles.fourDiv}  cursor-cell `}>
 
-        <div
-      onMouseEnter={()=>{changeBg('#4AD2FF')}}
-      onMouseLeave={()=>{bgDefault('transparent')}}
-        > Our approach to digital marketing is rooted in market analysis and a deep understanding of your business goals. We design campaigns that are not generic, but tailored to your brand and industry. This includes a mix of SEO optimization, advertising on Google and social media, email marketing, as well as creating content that captures attention and builds long-term customer relationships. </div>
+        <div> Our approach to digital marketing is rooted in market analysis and a deep understanding of your business goals. We design campaigns that are not generic, but tailored to your brand and industry. This includes a mix of SEO optimization, advertising on Google and social media, email marketing, as well as creating content that captures attention and builds long-term customer relationships. </div>
 
-        <div
-      onMouseEnter={()=>{changeBg('#ff8fa1')}}
-      onMouseLeave={()=>{bgDefault('transparent')}}
-        
-        >The advantage of digital marketing lies in its measurability – we know exactly how many people saw your ad, how many visited your website, and how many purchased your product. This way, every dollar invested brings clear value. Our team helps you be present where your customers are, stand out from the competition, and build a strong digital identity.</div>
+        <div>The advantage of digital marketing lies in its measurability – we know exactly how many people saw your ad, how many visited your website, and how many purchased your product. This way, every dollar invested brings clear value. Our team helps you be present where your customers are, stand out from the competition, and build a strong digital identity.</div>
 
       </div>
 
            
+  </>
+        
+
+:"" }
+
+
+
+{
+
+boolLaz2 ?
+<>
 
 
 
@@ -239,10 +224,6 @@ function Marketing({boolLaz2}) {
 
       </div> 
 
-{
-
-boolLaz2 ?
-<div>
 
 <Box slicica={olovka} order1={1} order2={2} stranaT={'flex-end'} bojaP={'#4AD2FF'} bojaT={'#FFFFFF'}
 txt={'SEO optimization is the process of adjusting your website to appear at the top of search results. When potential customers look for a product or service, they rarely go beyond the first page of Google. If you’re not there – you’re missing the chance to be noticed.'}
@@ -267,7 +248,7 @@ txt={'The benefit of SEO is that it delivers long-term results. Unlike paid ads 
 
 /> 
 
-</div>
+</>
 
 :""}
 

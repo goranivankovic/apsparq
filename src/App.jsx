@@ -134,12 +134,12 @@ function App() {
  
          <Nav />         
          <Home />
-         {/* 
-         <Marketing   boolLaz1 ={true}  boolLaz2 ={true} />  
-         <Creative />
+        
+         <Marketing   boolLaz1 ={true}  boolLaz2 ={false} />  
+         {/* <Creative />
          <Content /> 
          <HugeText />
-         <Footer />         */}
+         <Footer />          */}
 
          </div>
 
