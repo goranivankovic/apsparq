@@ -137,9 +137,9 @@ function App() {
         
          <Marketing   boolLaz1 ={true}  boolLaz2 ={true} />  
          {/* <Creative />
-         <Content /> 
+         <Content />  */}
          <HugeText />
-         <Footer />          */}
+         <Footer />         
 
          </div>
 
