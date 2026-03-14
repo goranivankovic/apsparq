@@ -309,6 +309,26 @@ width: 80rem;
 
     }
 
+
+.headline2 {
+
+
+    transform: rotate(0deg);
+
+    position: relative;
+    top: 0;
+    right: 0;
+    color: var(--green);
+  
+
+    font-size: calc(var(--navItemsXL)* 2);
+
+
+
+}
+
+
+
     .firstDivSmallBox {
 
 
@@ -455,6 +475,26 @@ width: 80rem;
 
 
     }
+
+
+
+.headline2 {
+
+
+    transform: rotate(0deg);
+
+    position: relative;
+    top: 0;
+    right: 0;
+    color: var(--green);
+
+
+    font-size: calc(var(--navItemsXL)* 1.5);
+
+
+
+}
+
 
     .firstDivSmallBox {
 
@@ -609,6 +649,24 @@ width: 80rem;
     }
 
 
+        .headline2 {
+    
+    
+            transform: rotate(0deg);
+    
+            position: relative;
+            top: 0;
+            right: 0;
+            color: var(--green);
+    
+    
+            font-size: calc(var(--navItemsXL)* 1.25);
+    
+    
+    
+        }
+
+
 .firstDivBigBOX div:hover {
     transform: scale(1)translateX(0rem);
     transition: .6s;
@@ -740,7 +798,7 @@ width: 80rem;
 
 
 @media(max-width:40rem) {
-    
+
 .nevidljiviDiv {
         display: none;
 
@@ -756,6 +814,10 @@ width: 80rem;
 
 
     }
+
+
+
+    
 
 }
 
