@@ -743,8 +743,8 @@ width: 80rem;
 
 
     .fourDiv div {
-        width: 22rem;
-        height: 17rem;
+        width: 24rem;
+            height: 18rem;
         padding: .5em;
         font-size: calc(var(--posao));
         background-color: var(--green);
@@ -824,6 +824,23 @@ width: 80rem;
 
 
     }
+
+
+
+
+  .fourDiv div {
+      width: 100%;
+      height: 18rem;
+      padding: .5em;
+      font-size: calc(var(--posao));
+      background-color: var(--green);
+      color: var(--black);
+      border-radius: var(--radius);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: var(--padd1em);
+  }
 
 
 

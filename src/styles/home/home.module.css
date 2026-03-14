@@ -591,8 +591,8 @@ max-height: 20rem;;
 
     .imageDiv img {
 
-        height: 17rem;
-        width:90%;
+        height: 18rem;
+        width:95%;
         margin-bottom: var(--padd1em);
 
         border-radius: var(--radius);
