@@ -163,6 +163,141 @@ function App() {
 
 
 
+             {/* ROUTE  HOME*/}
+    <Route  path='/home' element={
+
+        <div>
+ 
+         <Nav />         
+         <Home />
+        
+         <Marketing   boolLaz1 ={true}  boolLaz2 ={true} />  
+         <Creative />
+         <Content /> 
+         <HugeText />
+         <Footer />         
+
+         </div>
+     
+    
+      
+      }/>
+
+
+
+
+              {/* ROUTE  MARKETING*/}
+       <Route  path='/marketing' element={
+
+        <div>
+ 
+         <Nav />         
+         <Marketing   boolLaz1 ={true}  boolLaz2 ={false} />  
+   
+         <HugeText />
+         <Footer />         
+
+         </div>
+     
+    
+      
+      }/>
+
+
+
+
+               {/* ROUTE  MARKETING*/}
+       <Route  path='/seo' element={
+
+        <div>
+ 
+         <Nav />         
+         <Marketing   boolLaz1 ={false}  boolLaz2 ={true} />  
+   
+         <HugeText />
+         <Footer />         
+
+         </div>
+     
+    
+      
+      }/>
+
+
+
+         {/* ROUTE  CREATIVE*/}
+    <Route  path='/creative' element={
+
+        <div>
+ 
+         <Nav />         
+       
+         <Creative />
+          <Content /> 
+
+         <HugeText />
+         <Footer />         
+
+         </div>
+     
+    
+      
+      }/>
+
+
+
+
+
+
+             {/* ROUTE  WRITER*/}
+    <Route  path='/writer' element={
+
+        <div>
+ 
+         <Nav />         
+       
+         
+          <Content /> 
+         <Creative />
+         <HugeText />
+         <Footer />         
+
+         </div>
+     
+    
+      
+      }/>
+
+
+
+            {/* ROUTE  CONTACT*/}
+        <Route  path='/contact' element={
+
+        <div>
+ 
+         <Nav /> 
+
+       <HugeText />
+        <Footer />   
+         
+           <Creative />
+               
+
+         </div>
+     
+    
+      
+      }/>
+
+
+
+
+
+
+
+
+
+
 
 
 
