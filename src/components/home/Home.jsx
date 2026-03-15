@@ -189,20 +189,24 @@ useEffect(() => {
        
              <motion.div 
             
-       initial={{ background:"#808080",borderRadius:".4em"}}
-        whileInView={{ background:"#FFFFFF"}}
-        transition={{ duration: 1.2,delay:.9 }}
+      //  initial={{ background:"#808080",borderRadius:".4em"}}
+      //   whileInView={{ background:"#FFFFFF"}}
+      //   transition={{ duration: 1.2,delay:.9 }}
+
              >We develop <span style={{color:"#aaaa58"}}> smart</span>
            </motion.div>
             <motion.div
-               initial={{ background:"#808080",borderRadius:".4em"}}
-        whileInView={{ background:"#FFFFFF"}}
-        transition={{ duration: 1.2,delay:1.2 }}
+        //        initial={{ background:"#808080",borderRadius:".4em"}}
+        // whileInView={{ background:"#FFFFFF"}}
+        // transition={{ duration: 1.2,delay:1.2 }}
+
             >solutions for people, brands,</motion.div>
             <motion.div
-               initial={{ background:"#808080",borderRadius:".4em"}}
-        whileInView={{ background:"#FFFFFF"}}
-        transition={{ duration: 1.2,delay: 1.5 }}
+
+        //        initial={{ background:"#808080",borderRadius:".4em"}}
+        // whileInView={{ background:"#FFFFFF"}}
+        // transition={{ duration: 1.2,delay: 1.5 }}
+
              >and <span style={{color:"#aaaa58"}}>digital</span> platforms.</motion.div> 
 
 

@@ -96,6 +96,7 @@
         padding-left: 0rem;
         display: flex;
         align-items: center;
+     
 
 
 
@@ -105,6 +106,8 @@
         align-self: flex-end;
         font-size: calc(var(--navItemsXL)* 3);
         padding-right: 0rem;
+
+        padding-bottom: 2rem;
 
     }
 }

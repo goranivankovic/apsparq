@@ -238,7 +238,7 @@ function App() {
                
        
          <Creative />
-          <Content /> 
+          {/* <Content />  */}
 
          <HugeText />
          <Footer />         
@@ -264,7 +264,7 @@ function App() {
        
          
           <Content /> 
-         <Creative />
+         {/* <Creative /> */}
          <HugeText />
          <Footer />         
 
@@ -282,6 +282,7 @@ function App() {
         <div>
  
          <Nav /> 
+           <div style={{ marginTop:"5rem" }} ></div>   
 
        <HugeText />
         <Footer />   

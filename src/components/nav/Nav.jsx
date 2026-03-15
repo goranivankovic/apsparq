@@ -43,7 +43,8 @@ const [laz, setlaz] = useState(false)
   const pathRef = useRef(null);
   const [toggled, setToggled] = useState(false);
 
-  const handleClick = () => {
+  const handleClick = (a) => {
+    a.preventDefault() 
     const morph = flubber.interpolate(toggled ? pathA : pathB, toggled ? pathB : pathA);
 
     animate(0, 1, {
@@ -82,10 +83,10 @@ const [laz, setlaz] = useState(false)
 
     
 
-setTimeout(() => {
+
     
    setlaz3(!laz3)
-}, 1000);
+
 
   }else if (!laz) {
 
