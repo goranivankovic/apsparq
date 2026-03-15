@@ -14,19 +14,6 @@ import Slika from '../slika/Slika';
 
 function Marketing({boolLaz1, boolLaz2}) {
 
-useEffect(() => {
-
-  window.scrollTo({
-  top: 0,
-  behavior: 'smooth'
-});
-
-
-
-  return () => {
-    
-  }
-}, [])
 
 
 

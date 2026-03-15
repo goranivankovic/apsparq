@@ -18,19 +18,7 @@ import { useEffect,useState } from "react";
 
 function Creative() {
 
-useEffect(() => {
 
-  window.scrollTo({
-  top: 0,
-  behavior: 'smooth'
-});
-
-
-
-  return () => {
-    
-  }
-}, [])
 
 
 

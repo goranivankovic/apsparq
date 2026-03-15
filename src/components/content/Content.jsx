@@ -8,19 +8,6 @@ import { useEffect } from 'react';
 
 function Content() {
 
-useEffect(() => {
-
-  window.scrollTo({
-  top: 0,
-  behavior: 'smooth'
-});
-
-
-
-  return () => {
-    
-  }
-}, [])
 
 
 

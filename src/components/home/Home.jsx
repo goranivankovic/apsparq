@@ -24,19 +24,6 @@ function Home() {
 const [bg, setbg] = useState('#FFFFFF')
 
 
-useEffect(() => {
-
-  window.scrollTo({
-  top: 0,
-  behavior: 'smooth'
-});
-
-
-
-  return () => {
-    
-  }
-}, [])
 
 
 
