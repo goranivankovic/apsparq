@@ -27,18 +27,16 @@ const [bg, setbg] = useState('#FFFFFF')
 
 
 
-
-  const ref = useRef(null);
-  const { scrollYProgress } = useScroll({
-    target: ref,
-    offset: ["start start", "end start"],
-  });
+  const { scrollYProgress } = useScroll();
+const scale = useTransform(scrollYProgress, [0, 0.24], [1, 0]);
 
 
-  const width = useTransform(scrollYProgress, [0, 1], ["92%", "15%"]);
-  const height = useTransform(scrollYProgress, [0, 1], ["54rem", "15rem"]);
 
-  const showSmallVideo = scrollYProgress.get() > 0.9; // kad si blizu kraja
+
+
+
+
+
 
 
 
@@ -106,7 +104,7 @@ const [bg, setbg] = useState('#FFFFFF')
 
 
   return (
-    <div className={`${styles.main} cursor-crosshair`} ref={ref}
+    <div className={`${styles.main} cursor-crosshair`} 
   
 
      onMouseMove={handleMouseMove}
@@ -145,23 +143,17 @@ const [bg, setbg] = useState('#FFFFFF')
 
 
          <motion.video    className={`${styles.video}`} 
-            whileInView={{ opacity: 1, y: 0 }} 
 
 
+     transition={{ duration: 1, ease: "easeOut" }}
 
-        style={{
-          width,
-          height,
-          objectFit: "cover",
-          display: "block",
-          margin: "0 auto",
-         
-        }} 
+
+        style={{scale}}
         
-        type="video/mp4" src={dj}  autoPlay loop muted>
+        type="video/mp4" src={dj}  autoPlay loop muted />
 
 
-          </motion.video> 
+          
 
    
 
