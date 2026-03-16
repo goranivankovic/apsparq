@@ -86,8 +86,17 @@ margin-top: calc(var(--padd1em)*5);
   
     font-size: calc(var(--navItemsXL)*3.5);
     margin-bottom: .1em;
+  line-height: 1.15;
+
    
-   
+}
+.secondDiv div:hover{
+    background-color: var(--grey);
+    transition: var(--transition);
+    transform: scale(.98);
+    padding-left: 1rem;
+    color: var(--white);
+
 }
 
 
@@ -541,7 +550,7 @@ aspect-ratio: 1/1;
 
 
 .video {
-    width: 98%;
+    width: 95%;
     height: 18rem;
     border-radius: var(--radius);
     aspect-ratio: 1/1;
@@ -570,7 +579,7 @@ height: 18rem;;
 
         font-size: calc(var(--navItemsXL)* 1.2);
         margin-bottom: .1em;
-
+line-height: 1.15;
 
     }
 

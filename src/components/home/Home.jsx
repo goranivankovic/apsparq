@@ -38,7 +38,7 @@ const scale = useTransform(scrollYProgress, [0, 0.24], [1, 0]);
 
 
 
-
+// ------------------------------------------------------
 
 
    const [position, setPosition] = useState({ x: 0, y: 0 });
@@ -69,18 +69,11 @@ const scale = useTransform(scrollYProgress, [0, 0.24], [1, 0]);
 
 
 
-
+// -----------------------------------------------------------
 
 
   const [position2, setPosition2] = useState({ x: 0, y: 0 });
   const [visible2, setVisible2] = useState(false);
-
-
-
-
-
-
-
 
   const handleMouseMove2 = (e) => {
 
@@ -101,6 +94,39 @@ const scale = useTransform(scrollYProgress, [0, 0.24], [1, 0]);
 
    
   };
+
+
+
+
+// -------------------------------------------------------------
+
+
+  
+  const [position3, setPosition3] = useState({ x: 0, y: 0 });
+  const [visible3, setVisible3] = useState(false);
+
+
+
+  const handleMouseMove3 = (e) => {
+
+
+
+    const rect = e.currentTarget.getBoundingClientRect();
+    setPosition3({
+      x: e.clientX - rect.left,
+      y: e.clientY - rect.top,
+    });
+    setVisible3(true);
+
+
+  };
+
+  const handleMouseLeave3 = () => {
+    setVisible3(false);
+
+   
+  };
+
 
 
   return (
@@ -140,9 +166,61 @@ const scale = useTransform(scrollYProgress, [0, 0.24], [1, 0]);
 
       
 
+              {visible3 ?
+        <motion.div 
+
+          className={`${styles.nevidljiviDiv2}`}
+          style={{
+            left: position.x - 100,
+            top: position.y + 90,
+            opacity:[0,1],
+            transition:5,
+          }}
+
+         initial={{  opacity: 0 ,scale : 0 }}
+          whileInView={{  opacity:[ 1],scale : [0,1]}}
+
+          transition={{
+          repeat: 0,
+          ease: "easeInOut",
+          duration: .7,
+        }}> 
+
+
+
+     <motion.div
+  animate={{ x: ['0%', '100%'] }}
+  transition={{
+    repeat: Infinity,
+    duration: 30,
+    ease: 'linear',
+  }}
+  style={{
+    whiteSpace: 'nowrap',
+    // display: 'inline-block',
+  }}
+>
+ {Array.from({ length: 20 }).map((_, i) => (
+      <span key={i} style={{ marginRight: '32px' }}>Digital, Solutions</span>
+    ))}
+
+</motion.div>
+
+         </motion.div>
+      :''
+    }
+     
+
+
+
+
+
 
 
          <motion.video    className={`${styles.video}`} 
+
+              onMouseMove={handleMouseMove3}
+    onMouseLeave={handleMouseLeave3} 
 
 
      transition={{ duration: 1, ease: "easeOut" }}
@@ -239,8 +317,6 @@ const scale = useTransform(scrollYProgress, [0, 0.24], [1, 0]);
     ))}
 
 </motion.div>
-
-
 
          </motion.div>
       :''
