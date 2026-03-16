@@ -139,9 +139,9 @@ setlaz(!laz)
 
             </div>
 
-            <div className={styles.kontakt} onClick={handleClick}>
+            <div className={styles.kontakt} >
 
-   <motion.svg width="150" height="75" viewBox="0 0 150 75" fill="none" xmlns="http://www.w3.org/2000/svg"
+   <motion.svg onClick={handleClick} width="150" height="75" viewBox="0 0 150 75" fill="none" xmlns="http://www.w3.org/2000/svg"
     initial={{ scale: 0.6, opacity: 0.6 }}
   animate={{ scale: 1, opacity: 1 }}
   transition={{ duration: 1.2, ease: "easeOut",delay:0.5 }}
