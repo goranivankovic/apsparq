@@ -17,7 +17,7 @@ function Footer() {
 
              <div className={styles.secondDiv}>
             <a href="https://www.google.com/"  target='_blank'>GOOGLE</a>
-             <a href="https://www.twitter.com/"  target='_blank'>TWITTER</a>
+             <a href="https://www.linkedin.com/"  target='_blank'>LINKEDIN</a>
 
         </div>  
 
