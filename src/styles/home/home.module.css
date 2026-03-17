@@ -542,7 +542,7 @@ aspect-ratio: 1/1;
 
         font-size: calc(var(--navItemsXL) * 1.5);
 
-        line-height: 1.1;
+        line-height: 1.2;
 
 
 
@@ -579,7 +579,7 @@ height: 18rem;;
 
         font-size: calc(var(--navItemsXL)* 1.2);
         margin-bottom: .1em;
-line-height: 1.15;
+line-height: 1.2;
 
     }
 

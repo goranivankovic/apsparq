@@ -39,7 +39,7 @@ animate(track, { x: [`-${trackWidth / 2}px`, `0px`] }, {
 
          <div className={styles.textTrack} ref={trackRef}>
         {Array.from({ length: 15 }).map((_, i) => (
-          <span key={i}>  DARE TO CHNAGE <FaArrowRight /> </span>
+          <span key={i}>  DARE TO CHANGE <FaArrowRight /> </span>
         ))}
       </div>
 
