@@ -43,10 +43,16 @@
     font-weight: bold;
 
 
+
+
 }
 
 .textTrack span {
     margin-right: 2rem;
+}
+
+.textTrack :nth-child(even){
+    color: var(--green);
 }
 
 

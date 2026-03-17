@@ -170,7 +170,7 @@ const scale = useTransform(scrollYProgress, [0, 0.24], [1, 0]);
         <motion.div 
 
           className={`${styles.nevidljiviDiv2}`}
-          style={{
+         style={{
             left: position.x - 100,
             top: position.y + 90,
             opacity:[0,1],
@@ -327,6 +327,8 @@ const scale = useTransform(scrollYProgress, [0, 0.24], [1, 0]);
 
 
      <motion.img src={sto} alt=""
+
+
 
 
       initial={{ opacity: 0, y: 100 }}

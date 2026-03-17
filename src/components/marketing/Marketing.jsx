@@ -4,6 +4,9 @@ import { useEffect, useRef,useState } from "react";
 
 import Box from '../box/Box';
 
+import { motion, useScroll, useTransform } from "framer-motion";
+
+
 
 import slika2 from '../../assets/ljudi2.jpg'
 import slika3 from '../../assets/ljudi3.jpg'
@@ -78,6 +81,10 @@ function Marketing({boolLaz1, boolLaz2}) {
 
 
 
+
+
+
+
   return (
     <div className={styles.main}
 
@@ -120,24 +127,24 @@ boolLaz1 ? <>
 
 
 
-      <div className={styles.firstDiv}> 
+      <div className={styles.firstDiv}
+    onMouseMove={handleMouseMove2}
+    onMouseLeave={handleMouseLeave2}
+      > 
 
 
         <div className={styles.headline}>DIGITAL MARKETING(<span style={{color:"#000000"}}>02</span>)</div>
 
 
       
-        <div className={styles.firstDivSmallBox}
-                    onMouseMove={handleMouseMove2}
-    onMouseLeave={handleMouseLeave2} 
-        >
+        <div className={styles.firstDivSmallBox}>
 
              {visible2 ?
               <div
                 className={styles.nevidljiviDiv2}
                 style={{
-                  left: position.x -250,
-                  top: position.y  - 30,
+                  left: position2.x -200,
+                  top: position2.y  - 70,
                   opacity:[0,1],
                   transition:2,
                   
@@ -182,7 +189,7 @@ boolLaz1 ? <>
         
 
 
-
+ 
 
      <div className={styles.thrredDiv}>
       <div>We've perfected the way to</div>
