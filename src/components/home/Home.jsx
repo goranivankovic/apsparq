@@ -1,6 +1,6 @@
 import styles from '../../styles/home/home.module.css';
 
-import dj from '../../../video/video2.mp4'
+
 import { motion, useScroll, useTransform ,useInView, transform } from "framer-motion";
 import Slider from '../slider/Slider';
 import { useRef,useState } from "react";
@@ -217,7 +217,8 @@ const scale = useTransform(scrollYProgress, [0, 0.24], [1, 0]);
 
 
 
-         <motion.video    className={`${styles.video}`} 
+         <motion.video    
+         className={`${styles.video}`} 
 
               onMouseMove={handleMouseMove3}
     onMouseLeave={handleMouseLeave3} 
@@ -227,8 +228,18 @@ const scale = useTransform(scrollYProgress, [0, 0.24], [1, 0]);
 
 
         style={{scale}}
+
+        autoPlay loop muted playsInline preload='auto'
         
-        type="video/mp4" src={dj}  autoPlay loop muted />
+        
+        >
+
+            <source src="/video2.webm" type="video/webm"   />
+
+          <source src="/video2.mp4" type="video/mp4"   />
+
+
+          </motion.video>
 
 
           
