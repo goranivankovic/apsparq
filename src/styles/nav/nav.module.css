@@ -368,6 +368,17 @@ padding-right: .25em;
     }
 
 
+        .kontakt {
+    
+            font-size: calc(var(--navItemsXL));
+            text-decoration: none;
+            color: var(--black);
+            padding-right: .25em;
+            padding-top: .25em;
+    
+        }
+
+
 
 
 

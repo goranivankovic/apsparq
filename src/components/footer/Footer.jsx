@@ -10,14 +10,14 @@ function Footer() {
 
         <div className={styles.firstDiv}>
             <a href="https://www.instagram.com/" target='_blank'>INSTAGRAM</a>
-             <a href="https://www.facebook.com/"  target='_blank'>FACEBOOK</a>
+              <a href="https://www.linkedin.com/"  target='_blank'>LINKEDIN</a>
 
         </div>
 
 
              <div className={styles.secondDiv}>
             <a href="https://www.google.com/"  target='_blank'>GOOGLE</a>
-             <a href="https://www.linkedin.com/"  target='_blank'>LINKEDIN</a>
+           <a href="https://www.facebook.com/"  target='_blank'>FACEBOOK</a>
 
         </div>  
 
