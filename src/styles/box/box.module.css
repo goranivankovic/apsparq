@@ -303,7 +303,7 @@ margin-bottom: var(--padd1em);
     .boxeText {
 
         width: 100%;
-        min-height: 20rem;
+        height: 20rem;
         padding: .2em;
         border-radius: var(--radius);
         display: flex;
