@@ -1,7 +1,12 @@
 import styles from '../../styles/box/box.module.css';
-import React from 'react'
+
+
+
 
 function Box({slicica,order1,order2,stranaT,bojaP,bojaT,txt}) {
+
+
+
   return (
     <div className={styles.box}>
 

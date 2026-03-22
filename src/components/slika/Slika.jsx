@@ -2,6 +2,8 @@ import styles from '../../styles/slika/slika.module.css';
 
 import slika from '../../assets/ljudi.jpg'
 
+
+
 import { motion, useScroll, useTransform ,useInView } from "framer-motion";
 import { useRef,useState } from "react";
 
@@ -36,6 +38,22 @@ function Slika() {
 
 
 
+
+  const ref = useRef(null);
+
+  // prati progres skrola u odnosu na sekciju
+  const { scrollYProgress } = useScroll({
+    target: ref,
+    offset: ["start start", "end end"],
+  });
+
+
+
+
+
+
+
+
   return (
     <div className={styles.secondDiv}
      onMouseMove={handleMouseMove2}
@@ -64,10 +82,35 @@ function Slika() {
       
 
         <motion.img 
-              initial={{ opacity: 0, y: -150 }}
-        whileInView={{ opacity: 1, y: 0 }}
+
+ 
+
+        src={slika}
+        alt=''
+
+        initial={{ opacity: 0, y: -150,scale:1.1}}
+        whileInView={{ opacity: 1, y: 0 ,scale:1 }}
+
+
+
         transition={{ duration: 1.3 }}
-        src={slika} alt="" />
+     
+
+
+
+
+        />
+
+
+
+
+
+
+
+
+
+
+
 
     </div>
   )
