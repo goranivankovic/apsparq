@@ -30,7 +30,6 @@ margin-top: calc(var(--padd1em)*5);
 
 
 
-
 }
 
 
@@ -45,7 +44,7 @@ margin-top: calc(var(--padd1em)*5);
 .firstDiv div{
 
 
-    font-size: calc( var(--navItemsXL) * 5 );
+    font-size: calc( var(--navItemsXL) * 5.2 );
 
     line-height: 1.1;
   
@@ -84,7 +83,7 @@ margin-top: calc(var(--padd1em)*5);
 
 .secondDiv div{
   
-    font-size: calc(var(--navItemsXL)*3.5);
+    font-size: calc(var(--navItemsXL)*4);
     margin-bottom: .1em;
   line-height: 1.15;
 
@@ -108,6 +107,8 @@ margin-top: calc(var(--padd1em)*5);
     align-items: center;
     justify-content: space-between;
     margin-bottom: calc(var(--padd1em)*3);
+
+
 
  }
 

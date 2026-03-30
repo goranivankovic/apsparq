@@ -58,8 +58,8 @@ function Slika() {
     <div className={styles.secondDiv}
      onMouseMove={handleMouseMove2}
     onMouseLeave={handleMouseLeave2} 
-    
-    >
+
+>
 
 
                        {visible2 ?
@@ -88,9 +88,8 @@ function Slika() {
         src={slika}
         alt=''
 
-        initial={{ opacity: 0, y: -150,scale:1.1}}
-        whileInView={{ opacity: 1, y: 0 ,scale:1 }}
-
+        initial={{ opacity: 0, y: -150}}
+        whileInView={{ opacity: 1, y: 0 }}
 
 
         transition={{ duration: 1.3 }}

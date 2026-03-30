@@ -6,6 +6,8 @@ import Box from '../box/Box';
 
 import { motion, useScroll, useTransform } from "framer-motion";
 
+import AnimateText from "../animateText/AnimateText";
+
 
 
 import slika2 from '../../assets/ljudi2.jpg'
@@ -18,6 +20,12 @@ import Slika from '../slika/Slika';
 function Marketing({boolLaz1, boolLaz2}) {
 
 
+  const textLines = [
+    "We've perfected the way to",
+    "consistently design and launch",
+    "best-in-class digital products.",
+    
+  ];
 
 
   
@@ -75,8 +83,6 @@ function Marketing({boolLaz1, boolLaz2}) {
 
    
   };
-
-
 
 
 
@@ -192,21 +198,44 @@ boolLaz1 ? <>
  
 
      <div className={styles.thrredDiv}>
+
+      {/* <AnimateText lines={textLines}/>  */}
+     
       <div>We've perfected the way to</div>
-      <div>consistently design and launch</div>
-      <div>best-in-class digital products.</div>
+     <div>consistently design and launch</div>
+      <div>best-in-class digital products.</div>  
+   
 
       
      </div>
 
 
+
+
       <div className={` ${styles.fourDiv}  cursor-cell `}>
 
-        <div> Our approach to digital marketing is rooted in market analysis and a deep understanding of your business goals. We design campaigns that are not generic, but tailored to your brand and industry. This includes a mix of SEO optimization, advertising on Google and social media, email marketing, as well as creating content that captures attention and builds long-term customer relationships. </div>
+        <motion.div
 
-        <div>The advantage of digital marketing lies in its measurability – we know exactly how many people saw your ad, how many visited your website, and how many purchased your product. This way, every dollar invested brings clear value. Our team helps you be present where your customers are, stand out from the competition, and build a strong digital identity.</div>
+              initial={{ opacity: 0, scale: 0.8, rotate: 20, y: 150 }}
+    whileInView={{ opacity: 1, scale: 1, rotate: 0, y: 0 }}
+   
+    transition={{
+      duration: 0.8,
+      ease: "easeOut"
+    }}
+        
+        
+        > Our approach to digital marketing is rooted in market analysis and a deep understanding of your business goals. We design campaigns that are not generic, but tailored to your brand and industry. This includes a mix of SEO optimization, advertising on Google and social media, email marketing, as well as creating content that captures attention and builds long-term customer relationships. </motion.div>
+
+        <div >The advantage of digital marketing lies in its measurability – we know exactly how many people saw your ad, how many visited your website, and how many purchased your product. This way, every dollar invested brings clear value. Our team helps you be present where your customers are, stand out from the competition, and build a strong digital identity.</div>
 
       </div>
+
+
+
+
+
+
 
            
   </>
