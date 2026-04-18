@@ -281,7 +281,11 @@ const scale = useTransform(scrollYProgress, [0, 0.24], [1, 0]);
           </div>
 
 
-           <Slider /> 
+           <Slider   /> 
+        
+         
+          
+           
 
 <div className={styles.imageDiv}
      onMouseMove={handleMouseMove2}
@@ -355,7 +359,7 @@ const scale = useTransform(scrollYProgress, [0, 0.24], [1, 0]);
 
 
 
-      <motion.img
+     <motion.img
 
 
 
@@ -365,7 +369,10 @@ const scale = useTransform(scrollYProgress, [0, 0.24], [1, 0]);
      
       
       
-      src={kamera} alt="" />
+      src={kamera} alt="" /> 
+
+
+         
 
 </div>
 

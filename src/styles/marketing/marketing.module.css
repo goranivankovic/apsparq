@@ -131,26 +131,20 @@ justify-content: center;
 
 
 .fourDiv {
+  
     width: 60rem;
     padding: var(--padd1em);
 
     color: var(--grey);
     display: flex;
+   
     align-items: center;
     justify-content: space-between;
 
-}
-
-
-
-
-.fourDiv div:hover{
-    transition:.7s;
-   transform: scale(1.2);
-   border-radius: 0%;
- background-color: var(--white);
    
+
 }
+
 .fourDiv div{
     width: 25rem;
     height: 20rem;
@@ -163,6 +157,15 @@ justify-content: center;
     align-items: center;
     justify-content: center;
 
+
+}
+
+
+.fourDiv div:hover {
+    transition: .7s;
+    transform: scale(1.2);
+    border-radius: 0%;
+    background-color: var(--white);
 
 }
 

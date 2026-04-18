@@ -27,6 +27,7 @@
     padding: var(--padd1em);
 
 
+ 
 
 }
 
@@ -36,6 +37,7 @@
     width: 100%;
 
     border-radius: var(--radius);
+  
 
 }
 
@@ -52,6 +54,8 @@
     border-radius: var(--radius);
     animation: vrti 5s linear infinite;
     background-color: var(--white);
+
+  
 
 
 }

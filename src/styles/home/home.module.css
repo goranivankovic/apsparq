@@ -177,6 +177,8 @@ margin-top: calc(var(--padd1em)*5);
 
 
 
+
+
 @media(max-width:100rem) {
 .firstDiv {
         width: 80rem;

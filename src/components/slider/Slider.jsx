@@ -1,5 +1,6 @@
 import styles from '../../styles/slider/slider.module.css';
-import { animate  } from "motion";
+import { motion, animate } from "framer-motion";
+
 
 import { useEffect, useRef } from "react";
 import { FaArrowRight } from "react-icons/fa";
@@ -37,11 +38,11 @@ animate(track, { x: [`-${trackWidth / 2}px`, `0px`] }, {
 
     <div className={styles.sliderContainer} ref={containerRef}>
 
-         <div className={styles.textTrack} ref={trackRef}>
+         <motion.div className={styles.textTrack} ref={trackRef}>
         {Array.from({ length: 15 }).map((_, i) => (
           <span key={i}>  DARE TO CHANGE <FaArrowRight /> </span>
         ))}
-      </div>
+      </motion.div>
 
     </div>
 

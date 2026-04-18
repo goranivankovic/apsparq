@@ -20,13 +20,11 @@ import Slika from '../slika/Slika';
 function Marketing({boolLaz1, boolLaz2}) {
 
 
-  const textLines = [
-    "We've perfected the way to",
-    "consistently design and launch",
-    "best-in-class digital products.",
-    
-  ];
-
+const textLines = [
+  "We've perfected the way to",
+  "consistently design and launch",
+  "best-in-class digital products.",
+];
 
   
    const [position, setPosition] = useState({ x: 0, y: 0 });
@@ -83,10 +81,6 @@ function Marketing({boolLaz1, boolLaz2}) {
 
    
   };
-
-
-
-
 
 
 
@@ -199,7 +193,7 @@ boolLaz1 ? <>
 
      <div className={styles.thrredDiv}>
 
-      {/* <AnimateText lines={textLines}/>  */}
+    {/* <div><AnimateText lines={textLines}/> </div>   */}
      
       <div>We've perfected the way to</div>
      <div>consistently design and launch</div>
