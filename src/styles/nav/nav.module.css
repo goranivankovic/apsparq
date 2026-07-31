@@ -58,7 +58,12 @@ top: 0%;
     top: 0%;
 
 
+
+
+
+
     min-height: 100vh;
+    min-height: 100dvh;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -91,6 +96,7 @@ top: 0%;
     left: 0%;
     width: 100%;
     min-height: 100vh;
+  min-height: 100dvh;
     /* padding-left: var(--padd1em); */
     color: var(--black);
     display: flex;
@@ -132,7 +138,9 @@ top: 0%;
     position: fixed;
     top: 0%;
     left: 0%;
-    min-height: 100vh;
+ min-height: 100vh;
+   min-height: 100dvh;
+
     width: 100%;
     z-index: 101;
     background-color: var(--green);
@@ -148,7 +156,8 @@ top: 0%;
         top: 0%;
 
 
-        min-height: 100vh;
+      min-height: 100vh;
+        min-height: 100dvh;
         width: 100%;
         display: flex;
         flex-direction: row;
@@ -180,7 +189,10 @@ top: 0%;
         top: 0%;
         left: 0%;
         width: 100%;
-        min-height: 100vh;
+
+    min-height: 100vh;
+         min-height: 100dvh;
+    
         /* padding-left: var(--padd1em); */
    
         display: flex;
@@ -213,7 +225,11 @@ top: 0%;
         position: fixed;
         top: 0%;
         left: 0%;
-        min-height: 100vh;
+
+    min-height: 100vh;
+        min-height: 100dvh;
+
+  
         width: 100%;
         z-index: 101;
         background-color: var(--green);
@@ -258,8 +274,8 @@ padding-right: .25em;
         position: fixed;
         top: 0%;
 
-
         min-height: 100vh;
+        min-height: 100dvh;
         width: 100%;
         display: flex;
         flex-direction: row;
@@ -291,6 +307,7 @@ padding-right: .25em;
         left: 0%;
         width: 100%;
         min-height: 100vh;
+        min-height: 100dvh;
         /* padding-left: var(--padd1em); */
  
         display: flex;
@@ -331,6 +348,7 @@ padding-right: .25em;
         top: 0%;
         left: 0%;
         min-height: 100vh;
+        min-height: 100dvh;
         width: 100%;
         z-index: 101;
         background-color: var(--green);
@@ -394,7 +412,8 @@ padding-right: .25em;
         top: 0%;
 
 
-        min-height: 100vh;
+       min-height: 100vh;
+        min-height: 100dvh;
         width: 100%;
         display: flex;
         flex-direction: row;
@@ -427,6 +446,7 @@ padding-right: .25em;
         left: 0%;
         width: 100%;
         min-height: 100vh;
+        min-height: 100dvh;
         /* padding-left: var(--padd1em); */
   
         display: flex;
@@ -459,6 +479,7 @@ padding-right: .25em;
         top: 0%;
         left: 0%;
         min-height: 100vh;
+        min-height: 100dvh;
         width: 100%;
         z-index: 101;
         background-color: var(--green);
