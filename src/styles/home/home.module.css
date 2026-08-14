@@ -249,8 +249,7 @@ will-change: transform;
 
     will-change: opacity;
 
-        border-radius: var(--radius);
-
+    border-radius: var(--radius);
 }
 
 
@@ -318,9 +317,12 @@ will-change: transform;
     width: min(90vw, 900px);
 
     pointer-events: none;
-
 }
 
+
+/* =====================================================
+   SMALL LABEL
+===================================================== */
 
 .imageTextSmall {
     font-size: clamp(9px,
@@ -332,12 +334,16 @@ will-change: transform;
     text-transform: uppercase;
 
     margin-bottom: 20px;
-    font-weight: bolder;
-    color: var(--pink);
 
-   
+    font-weight: bolder;
+
+    color: var(--pink);
 }
 
+
+/* =====================================================
+   MAIN TITLE
+===================================================== */
 
 .imageText h2 {
     margin: 0;
@@ -349,12 +355,12 @@ will-change: transform;
     line-height: 0.9;
 
     letter-spacing: -0.05em;
-
-  
-
-
 }
 
+
+/* =====================================================
+   DESCRIPTION
+===================================================== */
 
 .imageText p {
     width: min(90%, 500px);
@@ -368,10 +374,10 @@ will-change: transform;
     line-height: 1.4;
 
     color: var(--white);
+
     background-color: var(--black);
+
     padding: .3em;
-
-
 }
 
 
@@ -397,7 +403,6 @@ will-change: transform;
 
     /* =================================================
        LEFT IMAGE
-       TOP
     ================================================= */
 
     .leftImage {
@@ -414,17 +419,11 @@ will-change: transform;
         aspect-ratio: 16 / 10;
 
         z-index: 2;
-
     }
 
 
     /* =================================================
        RIGHT IMAGE
-       BOTTOM
-
-       SAME LEFT
-       SAME WIDTH
-       SAME ASPECT RATIO
     ================================================= */
 
     .rightImage {
@@ -441,7 +440,6 @@ will-change: transform;
         aspect-ratio: 16 / 10;
 
         z-index: 3;
-
     }
 
 
@@ -458,7 +456,6 @@ will-change: transform;
         object-fit: cover;
 
         display: block;
-
     }
 
 
@@ -473,38 +470,36 @@ will-change: transform;
         bottom: 4vh;
 
         width: 80vw;
-
     }
 
 
     .imageTextSmall {
 
-        font-size: 10px;
+        font-size: 14px;
 
-        margin-bottom: 15px;
-
+        margin-bottom: 18px;
     }
 
 
     .imageText h2 {
 
-        font-size: clamp(40px,
-                7vw,
-                80px);
+        font-size: 86px;
 
-        line-height: 0.9;
+        line-height: 0.88;
 
+        letter-spacing: -0.05em;
     }
 
 
     .imageText p {
 
-        width: 80%;
+        width: 85%;
 
-        margin-top: 20px;
+        margin-top: 24px;
 
-        font-size: 17px;
+        font-size: 20px;
 
+        line-height: 1.4;
     }
 
 }
@@ -527,7 +522,6 @@ will-change: transform;
         height: 100svh;
 
         overflow: hidden;
-
     }
 
 
@@ -546,7 +540,6 @@ will-change: transform;
         aspect-ratio: 16 / 10;
 
         height: auto;
-
     }
 
 
@@ -557,6 +550,7 @@ will-change: transform;
     .rightImage {
 
         left: 7.5vw;
+
         right: auto;
 
         top: 43vh;
@@ -566,7 +560,6 @@ will-change: transform;
         aspect-ratio: 16 / 10;
 
         height: auto;
-
     }
 
 
@@ -581,42 +574,36 @@ will-change: transform;
         bottom: 3vh;
 
         width: 85vw;
-
     }
 
 
     .imageTextSmall {
 
-        font-size: 9px;
+        font-size: 13px;
 
-        margin-bottom: 12px;
-
+        margin-bottom: 15px;
     }
 
 
     .imageText h2 {
 
-        font-size: clamp(34px,
-                9vw,
-                60px);
+        font-size: 68px;
 
-        line-height: 0.92;
+        line-height: 0.9;
 
-        letter-spacing: -0.04em;
-
+        letter-spacing: -0.045em;
     }
 
 
     .imageText p {
 
-        width: 90%;
+        width: 92%;
 
-        margin-top: 18px;
+        margin-top: 20px;
 
-        font-size: 15px;
+        font-size: 18px;
 
         line-height: 1.4;
-
     }
 
 }
@@ -637,7 +624,6 @@ will-change: transform;
     .imageSticky {
 
         height: 100svh;
-
     }
 
 
@@ -656,7 +642,6 @@ will-change: transform;
         aspect-ratio: 16 / 10;
 
         height: auto;
-
     }
 
 
@@ -677,7 +662,6 @@ will-change: transform;
         aspect-ratio: 16 / 10;
 
         height: auto;
-
     }
 
 
@@ -692,27 +676,24 @@ will-change: transform;
         bottom: 3vh;
 
         width: 85vw;
-
     }
 
 
     .imageTextSmall {
 
-        font-size: 8px;
+        font-size: 11px;
 
-        margin-bottom: 10px;
-
+        margin-bottom: 12px;
     }
 
 
     .imageText h2 {
 
-        font-size: clamp(30px,
-                10vw,
-                48px);
+        font-size: 52px;
 
-        line-height: 0.92;
+        line-height: 0.9;
 
+        letter-spacing: -0.04em;
     }
 
 
@@ -720,12 +701,11 @@ will-change: transform;
 
         width: 95%;
 
-        margin-top: 14px;
+        margin-top: 16px;
 
-        font-size: 14px;
+        font-size: 16px;
 
-        line-height: 1.35;
-
+        line-height: 1.4;
     }
 
 }
@@ -754,7 +734,6 @@ will-change: transform;
         aspect-ratio: 16 / 10;
 
         height: auto;
-
     }
 
 
@@ -771,7 +750,6 @@ will-change: transform;
         aspect-ratio: 16 / 10;
 
         height: auto;
-
     }
 
 
@@ -781,31 +759,36 @@ will-change: transform;
 
         bottom: 2.5vh;
 
-        width: 85vw;
+        width:85vw;
+    }
 
+
+    .imageTextSmall {
+
+        font-size: 10px;
+
+        margin-bottom: 10px;
     }
 
 
     .imageText h2 {
 
-        font-size: 29px;
+        font-size: 44px;
 
+        line-height: 0.9;
+
+        letter-spacing: -0.04em;
     }
 
 
     .imageText p {
 
-        font-size: 13px;
+        font-size: 15px;
 
+        line-height: 1.35;
     }
 
 }
-
-
-
-
-
-
 
 
 
