@@ -519,7 +519,7 @@ function Home() {
 
           <span
             style={{
-              color: "#aaaa58"
+              color: "#ff8fa1"
             }}
           >
 
