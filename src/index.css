@@ -14,12 +14,13 @@
 
 
 
-
-
  
 
+}
 
+body{
 
+    line-height: 1.5;
 
 }
 
@@ -64,7 +65,7 @@
 :root {
 
     --black: #000000;
-    --white: #FFFFFF;
+    --white: #ffffff;
     --green: #aaaa58;
     --grey: #808080;
     --blue: #4AD2FF;
@@ -157,3 +158,26 @@
 
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,25 +1,26 @@
+
+
+
 .main {
-
-
     width: 100%;
-    min-height:100vh;
-        background-image: url('../../assets/stripes2.png');
-            background-position: center;
-            background-size: cover;
-            background-repeat: no-repeat;
+    min-height: 100vh;
+
+    background-image: url('../../assets/stripes2.png');
+    background-position: center top;
+
+    /* umesto cover */
+    background-size: 100% auto;
+
+    background-repeat: repeat-y;
 
     display: flex;
     flex-direction: column;
     align-items: center;
-   
-
 
     background-color: var(--white);
-    /* z-index: -1; */
+
     position: relative;
     top: 0%;
-
-
 }
 
 
@@ -250,6 +251,245 @@ width: 80rem;
 
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =====================================================
+   TEXT ZOOM
+===================================================== */
+
+.textZoomSection {
+
+    position: relative;
+
+    width: 100%;
+
+    height: 320vh;
+
+
+}
+
+
+.textZoomSticky {
+
+    position: sticky;
+
+    top: 0;
+
+    width: 100%;
+
+    height: 100vh;
+
+    height: 100svh;
+
+    overflow: hidden;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+}
+
+
+.textZoom {
+
+    width: 90vw;
+
+    text-align: center;
+
+    transform-origin: center center;
+
+    will-change: transform, opacity;
+
+    font-size: clamp(32px,
+            5vw,
+            80px);
+
+    line-height: 0.95;
+
+    letter-spacing: -0.05em;
+
+    font-weight: 500;
+        background-color: var(--white);
+        line-height: 1.6;
+
+}
+
+
+.textZoom div {
+
+    white-space: nowrap;
+
+}
+
+
+/* =====================================================
+   TABLET
+===================================================== */
+
+@media (max-width: 1024px) {
+
+    .textZoomSection {
+
+        height: 280vh;
+
+    }
+
+    .textZoom {
+
+        width: 90vw;
+
+        font-size: clamp(30px,
+                5.5vw,
+                65px);
+
+    }
+
+}
+
+
+/* =====================================================
+   MOBILE
+===================================================== */
+
+@media (max-width: 768px) {
+
+    .textZoomSection {
+
+        height: 250vh;
+
+    }
+
+    .textZoomSticky {
+
+        height: 100svh;
+
+    }
+
+    .textZoom {
+
+        width: 90vw;
+
+        font-size: clamp(25px,
+                7vw,
+                48px);
+
+        line-height:1.2;
+
+    }
+
+    .textZoom div {
+
+        white-space: normal;
+
+    }
+
+}
+
+
+/* =====================================================
+   SMALL MOBILE
+===================================================== */
+
+@media (max-width: 480px) {
+
+    .textZoomSection {
+
+        height: 220vh;
+
+    }
+
+    .textZoom {
+
+        width: 92vw;
+
+        font-size: clamp(22px,
+                7.5vw,
+                40px);
+
+        line-height: 1.2;
+
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media(max-width:100rem) {
